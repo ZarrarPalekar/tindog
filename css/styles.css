@@ -25,29 +25,15 @@ p {
   line-height: 1.5;
 }
 
-/* title */
-#title {
-  background-color: #ff4c68;
-  color: white;
-  padding: 7% 10%;
-  text-align: left;
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
 }
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-}
-
-.container-fluid {
-  padding: 3%;
-}
-
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
 }
 
 .navbar {
@@ -64,6 +50,24 @@ p {
   font-weight: 300;
 }
 
+/* title */
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
 .download-button {
   margin: 5% 3% 5% 0
 }
@@ -71,7 +75,6 @@ p {
 /* features */
 #features {
   /* margin-bottom: 50px; */
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
@@ -111,10 +114,6 @@ p {
   line-height: 1.5;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* press */
 #press {
   background-color: #ef8172;
@@ -144,13 +143,11 @@ p {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
 }
 
 /* footer */
 #footer {
   background-color: #fff;
-  padding: 7% 15%;
   font-size: 15px;
 }
 
@@ -160,6 +157,10 @@ p {
 
 .anch-foot {
   color: black;
+}
+
+.attrib {
+  font-size: 0.5rem;
 }
 
 @media (max-width: 1028px) {
